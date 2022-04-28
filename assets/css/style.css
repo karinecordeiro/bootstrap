@@ -9,8 +9,7 @@ h5{
     color:#290a59
 }
 .botao {
-    padding:6px 12px ;
-    color: #290a59;
+    padding:6px 12px;
     background-color: #ff7c00;
     border-color: #ff7c00;
     border-radius: 0.25rem;
@@ -19,7 +18,7 @@ h5{
 }
 .botao:hover{
     padding:6px 12px ;
-    color: rgb(237, 212, 230);
+    color: white;
     background-color: #290a59;
     border-color: #290a59;
     border-radius: 0.25rem;
@@ -41,7 +40,7 @@ ul li a{
 }
 a{
     display: inline;
-    color: #290a59;
+    color: white;
 }
 
 a:link {
@@ -50,7 +49,7 @@ a:link {
 }
 
 a:hover {
-    color: rgb(237, 212, 230);
+    color: white;
     background-color: transparent;
 }
 
@@ -90,5 +89,5 @@ button {
 
 button:hover {
     background-color: #290a59;
-    color: rgb(237, 212, 230)
+    color: white;
 }
