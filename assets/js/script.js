@@ -44,3 +44,10 @@ function validaAssunto(){
         assuntoOk = true
     }
 }
+function enviar(){
+    if (nomeOk == true && emailOk == true && assuntoOk == true){
+        alert ("Formulário enviado com sucesso!")
+    } else {
+        alert ("Preencha seu formulário corretamente antes de enviar.")
+    }
+}

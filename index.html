@@ -60,7 +60,7 @@
                   </div>
 
                 <!--!SOBRE MIM-->
-                  <div class="row d-flex justify-content-center align-items-center" id="sobreMim">
+                  <div class="row d-flex justify-content-end align-items-center m-0" id="sobreMim">
                   <h1>SOBRE MIM</h1>
                 </div>
                   <div class="row mt-3 d-flex justify-content-center align-items-center">
@@ -76,7 +76,7 @@
                   <!--!FIM HOME E SOBRE MIM-->
 
                 <!--TODO: IMAGENS E VIDEOS-->
-                  <div class="row mt-5 d-flex justify-content-center" id="foto">
+                  <div class="row mt-5 d-flex justify-content-top m-0" id="foto">
                   <h1>FOTOS</h1>
                 </div>
                   <div class="row mt-3 d-flex justify-content-center">
@@ -110,7 +110,7 @@
                 </div>
 
                   <!--*VIDEOS-->
-                  <div class="row mt-5 d-flex justify-content-center" id="video">
+                  <div class="row mt-5 d-flex justify-content-end m-0" id="video">
                   <h1>VÍDEOS</h1>
                 </div>
                 <div class="row mt-3 d-flex justify-content-center">
@@ -127,7 +127,7 @@
                 <!--TODO: FIM IMAGENS E VIDEOS-->
 
                 <!--*LINKS-->
-                  <div class="row mt-5 d-flex justify-content-center" id="link">
+                  <div class="row mt-5 d-flex justify-content-top m-0" id="link">
                   <h1>LINKS</h1>
                 </div>
                   <div class="row mt-3 d-flex justify-content-center">
@@ -137,7 +137,7 @@
                             <div class="card-body">
                               <h4 class="card-title">MÚSICAS</h4>
                               <p class="card-text">Minhas músicas - love songs - preferidas do momento.</p>
-                              <div class="botao"> <a href="https://www.deezer.com/br/profile/3838324522/loved"> Clique aqui </a>
+                              <div> <a class="linkE font-weight-bold" href="https://www.deezer.com/br/profile/3838324522/loved"> Clique aqui </a>
                               </div>
                             </div>
                           </div>
@@ -148,7 +148,7 @@
                             <div class="card-body">
                               <h4 class="card-title">FILMES</h4>
                               <p class="card-text">Filmes online em destaque no Adoro Cinema.</p>
-                              <div class="botao"> <a href="https://www.adorocinema.com/vod/">Clique aqui</a>
+                              <div> <a class="linkE font-weight-bold" href="https://www.adorocinema.com/vod/">Clique aqui</a>
                               </div>
                             </div>
                           </div>
@@ -159,7 +159,7 @@
                               <div class="card-body">
                                 <h4 class="card-title">LIVROS</h4>
                                 <p class="card-text">Livros lidos - e sendo lidos - por mim na plataforma Skoob.</p>
-                                <div class="botao"> <a href="https://www.skoob.com.br/usuario/3042618-enni"> Clique aqui</a>
+                                <div> <a class="linkE font-weight-bold" href="https://www.skoob.com.br/usuario/3042618-enni"> Clique aqui</a>
                                 </div>
                               </div>
                       </div>
@@ -167,27 +167,25 @@
                 </div>
 
                 <!--todo: CONTATO-->
-                  <div class="row mt-5 d-flex justify-content-center" id="contato">
-                  <h1>ENTRE EM CONTATO COMIGO</h1>
+                  <div class="row mt-5 d-flex justify-content-center m-0" id="contato">
+                  <h2>ENTRE EM CONTATO COMIGO</h2>
                 </div>
                   
                     <form>
                       <div class="row mt-3 d-flex justify-content-center">
-                      <div class="col-md-4">
+                      <div class="col-md-3">
                       <label class="text-justify-center" for="nome">NOME:</label>
                       <input type="text" id="nome"  placeholder="Digite seu nome aqui..."onkeyup="validaNome()">
                           <div id="txtNome"></div>
                         </div>
                         <div class="col-md-5">
-                          
                       <label for="email">E-MAIL:</label>
                       <input type="email" id="email" placeholder="Digite seu e-mail aqui..." onkeyup="validaEmail()">
                           <div id="txtEmail"></div>
                         </div>
-                      <div class="col-md-9">
+                      <div class="col-md-3">
                       <label for="assunto">ASSUNTO:</label>
-                      <textarea name="assunto" id="assunto" placeholder="Me conte algo..." onkeyup="validaAssunto()">
-                      </textarea>
+                      <textarea name="assunto" id="assunto" placeholder="Me conte algo..." cols="1" rows="1" onkeyup="validaAssunto()"></textarea>
                           <div id="txtAssunto"></div>
                       </div>
                     </div>
@@ -201,7 +199,7 @@
                 
                     <!--todo: FIM CONTATO-->
 
-                      <HR></HR>
+                      <hr class="m-3">
                       <footer>
 
                         <div class="row">
@@ -219,7 +217,7 @@
                         </div>
                         <div class="row">
                           <div class="col-md-12">
-                            <p class="text-center">
+                            <p class="text-center font-weight-bold">
                               Todos os direitos reservados: KaCorde &copy
                             </p>
                           </div>
